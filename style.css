@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner-section{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.banner-left-side{
+    /* background-color: aquamarine; */
+    width: 50%;
+    padding-left: 20px;
+}
+
+.banner-left-side h3{
+    color: chocolate;
+    font-size: 25px;
+}
+
+.banner-left-side p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.banner-left-side a{
+    color: white;
+    font-size: 22px;
+    background-color: coral;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 15px 30px;
+}
+
+.banner-right-side{
+    /* background-color: cadetblue; */
+    width: 50%;
+    height: 500px;
+}
+
+.banner-right-side img{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+}
+
