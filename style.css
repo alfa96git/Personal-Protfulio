@@ -1,4 +1,6 @@
 body{
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto Slab', serif;
     margin: 0%;
     padding: 0%;
 }
@@ -30,9 +32,12 @@ p{
 }
 
 .button{
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;   /* remove Underline from text*/
     font-size: 22px;
-    background-color: coral;
+    /* background-color: coral; */
+    background-image: linear-gradient(rgb(217, 184, 122),rgb(212, 113, 113));
+    font-weight: 700;
     border-radius: 10px;
     margin-left: 10px;
     padding: 15px 30px;
@@ -85,3 +90,64 @@ p{
 }
 
 /* ----------------------- */
+
+.developer-part{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.experience-section{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-section h1{
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+.full-stack-dev-part{
+    width: 50%;
+    /* background-color: aquamarine; */
+    margin: 20px 40px;
+    padding-left: 30px;
+    box-shadow: 10px 15px 40px rgb(90, 91, 88);
+    border-radius: 5px;
+    border-left: 5px solid rgba(72, 228, 130, 0.903);
+    
+}
+
+.full-stack-dev-part h2{
+font-size: 35px;
+}
+.full-stack-dev-part h4{
+font-size: 23px;
+color: coral;
+}
+.baby-dev-part{
+    width: 50%;
+    /* background-color: aquamarine; */
+    margin: 20px 40px;
+    padding-left: 30px;
+    box-shadow: 10px 15px 40px rgb(90, 91, 88);
+    border-radius: 5px;
+    border-left: 5px solid rgb(56, 129, 219);
+    
+}
+
+.baby-dev-part h2{
+    font-size: 35px;
+}
+
+.baby-dev-part h4{
+    font-size: 23px;
+    color: coral;
+}
+
+
+/* ------------- */
+
+.footer-section h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
