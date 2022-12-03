@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     display: flex;
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 .banner-left-side{
@@ -16,17 +17,17 @@ body{
     padding-left: 20px;
 }
 
-.banner-left-side h3{
+h3{
     color: chocolate;
     font-size: 25px;
 }
 
-.banner-left-side p{
+p{
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-.banner-left-side a{
+.button{
     color: white;
     font-size: 22px;
     background-color: coral;
@@ -47,3 +48,35 @@ body{
     padding: 10px;
 }
 
+/* ------------- */
+
+.dreamBig-section{
+    display: flex;
+    margin: 10px 30px;
+}
+
+.dreamBid-left-side{
+    width: 50%;
+    /* background-color: rgb(57, 128, 104); */
+}
+
+.dreamBid-left-side img{
+    width: 100%;
+    height: 100%;
+}
+
+.dreamBid-right-side{
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding-left: 30px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.dreamBid-right-side h1{
+    font-size: 50px;
+}
+
+/* ----------------------- */
